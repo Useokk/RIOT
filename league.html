@@ -3,34 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="league.css" />
+    <script
+      src="https://kit.fontawesome.com/04b35962a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="leftBox.css" />
     <title>LoL</title>
   </head>
   <body>
-    <div class="leftBox">
-      <div class="leftBox__header">
-        <img src="image/riot-fist-container-white-red.png" class="riot__logo" />
-        <div class="what__box">
-          <img src="image/다운로드.png" class="what" />
+    <div class="box">
+      <div class="leftBox">
+        <div class="leftBox__header">
+          <img
+            src="image/riot-fist-container-white-red.png"
+            class="riot__logo"
+          />
+          <div class="what__box">
+            <img src="image/다운로드.png" class="what" />
+          </div>
+        </div>
+        <div class="leftBox__main">
+          <div class="leftBox__main-column">
+            <div class="leftBox__main-title">
+              라이엇 계정으로 로그인
+            </div>
+            <div class="leftBox__main-login">
+              <div class="leftBox__main-ID">
+                <input type="text" class="ID" placeholder="계정이름" />
+              </div>
+              <div class="leftBox__main-PW">
+                <input type="text" class="PW" placeholder="비밀번호" />
+              </div>
+              <div class="leftBox__main-button">
+                <input type="checkbox" class="BT" />
+                <span class="buttonRight">로그인 상태 유지</span>
+              </div>
+              <div class="leftBox__main-GOBOX">
+                <div class="leftBox__main-GO">
+                  <i class="fa fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="instruction">
+          <div class="instruction__column">
+            <div class="a1Box">
+              <a
+                href="https://signup.account.leagueoflegends.co.kr/"
+                class="instruction__1"
+              >
+                계정 생성
+              </a>
+            </div>
+            <a
+              href="https://account.leagueoflegends.co.kr/id-finder"
+              class="instruction__2"
+              >로그인이 안 되시나요?</a
+            >
+          </div>
+          <div class="instruction__column2">
+            <div class="version">V8.0.0</div>
+          </div>
         </div>
       </div>
-      <div class="leftBox__main">
-        <div class="leftBox__main-title">
-          라이엇 계정으로 로그인
-        </div>
-        <div class="leftBox__main-login">
-          <div class="leftBox__main-ID">
-            <input type="text" class="ID" placeholder="계정이름" />
-          </div>
-          <div class="leftBox__main-PW">
-            <input type="text" class="PW" placeholder="비밀번호" />
-          </div>
-          <div class="leftBox__main-button">
-            <input type="checkbox" class="BT" />
-            <p class="buttonRight">로그인 상태 유지</p>
-          </div>
-        </div>
-      </div>
+      <div class="rightBox"></div>
     </div>
   </body>
 </html>
